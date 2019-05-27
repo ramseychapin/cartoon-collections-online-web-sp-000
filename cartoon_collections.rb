@@ -18,4 +18,5 @@ def find_the_cheese(ingredients)
 
   ingredients.find do |item|
     cheese_types.include?(item)
+  end
 end
